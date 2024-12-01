@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+datasets = "*"
+torch = "*"
+torchvision = "*"
+huggingface-hub = "*"
+matplotlib = "*"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
